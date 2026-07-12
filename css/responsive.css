@@ -1,0 +1,290 @@
+@media only screen and (min-width: 1901px) {
+   
+    
+}
+
+@media only screen and (min-width: 1401px) and (max-width: 1900px){ 
+   
+    :root{
+      --baseFS: 14px;
+      --autoWidth: 104em; 
+      --headerHeight: 78px;
+    }  
+}
+
+/*start of = (min-width: 1366px) and (max-width: 1440px)*/
+@media only screen and (min-width: 1366px) and (max-width: 1400px){
+   
+    :root{
+        --baseFS: 11.5px;
+        --autoWidth: 104em; 
+        --headerHeight: 65px;
+      } 
+
+ 
+
+/*end of = (min-width: 1366px) and (max-width: 1900px)*/			
+}
+
+
+
+
+
+ 
+/*start of = (min-width: 1280px) and (max-width: 1365px)*/	
+@media only screen and (min-width: 1280px) and (max-width: 1365px){
+
+    :root{
+        --baseFS: 11px;
+        --autoWidth: 104em; 
+      } 
+    
+/*end of = (min-width: 1280px) and (max-width: 1365px)*/			
+}
+
+
+
+
+
+
+/*start of = (min-width: 1024px) and (max-width: 1279px)*/
+@media only screen and (min-width: 1024px) and (max-width: 1279px){
+
+    
+body { -webkit-text-size-adjust:none;  -webkit-overflow-scrolling: touch; }
+
+:root{
+    --baseFS: 10.5px;
+    --autoWidth: 104em; 
+    --headerHeight: 60px;
+  }
+  
+  .header_links ul li{ padding: 0em 1.1em;}
+  .header_links{ padding-right: 3em;}
+ 
+ 
+/*end of = (min-width: 1024px) and (max-width: 1279px)*/			
+}
+
+
+
+/*start of = (min-width: 768px) and (max-width: 1023px)*/	
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+   
+ 
+body { -webkit-text-size-adjust:none; -webkit-overflow-scrolling: touch; overflow-x: hidden; }
+:root{
+    --baseFS: 10.5px;
+    --autoWidth: 104em; 
+    --fs18: 1em;
+    --fs20: 1.1em;
+    --fs106: 5em;
+    --fs96: 4em;
+  }
+  
+.banner{ display: block; min-height: 0px; }
+ 
+.navContact li{ padding-left: 10px; margin-left: 10px;}
+.navInfo > ul > li{ padding-left: 10px; margin-left: 10px;}
+ 
+.navOutlineBtn i svg { width: 20px; height: 12px; }
+.header_mainInner{ flex-wrap:wrap;}
+
+.header_right{ position: fixed; right: -100%; top: 0px; overflow-y: auto; overflow-x: hidden; width: 100%; height: 100%; z-index: 4; padding-left: 0px !important; padding-right: 0px !important; background-color: var(--white); display: block; padding: 15px;  height: 100vh; position: absolute; padding-top: calc(110px); max-width: 360px;  box-shadow: 0px 0px 1.25em rgba(0, 0, 0, 0.25); transition: all 0.5s ease; border-radius: 10px 0px 0px 10px; }
+
+.openMobileMenu .header_right{ right: 0%; }
+
+.header_mainInner:after{ content: ""; width: 100%; height: 100%; position: fixed; left: 0px; top: 0px; z-index: 2; background-color: rgba(0, 0, 0, 0.50); opacity: 0; visibility: hidden; transition: all 0.7s ease; } 
+
+.openMobileMenu .header_mainInner:after{ opacity: 1; visibility: visible; }
+
+.menuLink{ border-top: 1px solid var(--border_color); padding: 10px 15px; font-size: 14px;}
+.menuLink.hasDropdown:after{ right: 15px;}
+.dropdownMenu_inner{ padding: 0px;}
+.dropdownMenu_inner:before{ display: none;}
+.dropdownMenuList ul{ display: block;  }
+.dropdownMenuList ul li{ padding: 0px;}
+.dropdownMenuList ul li:first-child a{ border-top: 0px none;}
+
+
+/* .openMobileMenu .header_left{ position: relative; z-index: 999; }*/
+.openMobileMenu .mob_menuBtn{  z-index: 999; }
+.openMobileMenu .header{  z-index: 9992; }
+.openMobileMenu{ overflow: hidden !important;}
+/* .openMobileMenu .topNav{ z-index: 9991;}  */ 
+
+.dropdownMenu{ position: initial; visibility: visible; opacity: 1; display: none;}
+.dropdownMenu .autoContent{  padding: 0px;}
+
+
+
+.header_link{ max-height: calc(100vh - 130px);  min-height: 200px;  overflow-y: auto; padding-bottom:60px !important; }
+.header_link > ul > li:hover .dropdownMenu{ display: block;}
+
+.trackBooking_dropdownBox {  min-width: 276px; right: -124px; padding: 12px; }
+
+.header_tracking { display: flex ; align-items: center; position: absolute; left: 0px; top: 39px; padding: 15px;  width: 100%; }
+.header_link > ul > li{ padding: 0px;}
+
+.header_link > ul{ display: block; }
+.header_link{ padding: 0px;}
+.header_tracking{ justify-content: space-between;}
+
+ 
+.banner_right{ width: 50%; padding-bottom: 30px; }
+.all_btn svg, .field_icon svg{ max-width: 20px; max-height: 20px;}
+.ride_tab_header ul li a svg{max-width:16px; max-height: 16px; display: block;}
+.header_logo img{ max-width: 110px;}
+
+.mob_menuBtn{ display: block;}
+ 
+
+/* end 768 */
+}
+
+
+@media only screen and (min-width:0px) and (max-width:767px){
+   
+    body { -webkit-text-size-adjust:none; -webkit-overflow-scrolling: touch; overflow-x: hidden; }
+    :root{
+        --baseFS: 11.5px;
+        --headerHeight: 88px;
+        --bannerHeadingText: 2em;
+        --f18: 1.115em;
+        --fs20: 1.15em;
+        --fs44: 2.25em;
+        --fs74: 2.625em;
+        --fs40: 2.25em;
+        --fs60: 2em;
+        --fs74: 2.25em;
+       
+    }
+
+    .topPromo{ display: block;}
+    .banner_text h1{ text-align: center;}
+    .navContact li a{ font-size: 1em;}
+    .navContact li{ padding-left: 10px; margin-left: 0px; width: 100%; justify-content: center;}
+    .navInfo > ul > li{ padding-left: 10px; margin-left: 10px; border: 0px none; min-height: 20px;}
+ 
+    .navOutlineBtn i svg { width: 20px; height: 12px; }
+    .header_mainInner{ flex-wrap:wrap;}
+
+    .topNavInner .navInfo_web{ display: none;}
+    .navContact{ width: 100%;}
+
+    .iconic_btnRow{ padding-top: 1.75em;}
+
+    .header_right{ position: fixed; right: -100%; top: 0px; overflow-y: auto; overflow-x: hidden; width: 100%; height: 100%; z-index: 99999; padding-left: 0px !important; padding-right: 0px !important; background-color: var(--white); display: block; padding: 15px;  position: fixed; padding-top: calc(102px); max-width: 300px;  box-shadow: 0px 0px 1.25em rgba(0, 0, 0, 0.25); transition: all 0.5s ease; border-radius: 10px 0px 0px 10px; }
+
+    .openMobileMenu .header_right{ right: 0%; }
+ 
+    .openMobileMenu .header .header_main{ z-index: 99999 !important;}
+
+    .openMobileMenu .mob_menuBtn{ position: fixed; bottom: initial; top: 14px;}
+    .header_main{ padding: 12px 0px;}
+    .header_mainInner:after{ content: ""; width: 100%; height: 100%; position: fixed; left: 0px; top: 0px; z-index: 2; background-color: rgba(0, 0, 0, 0.50); opacity: 0; visibility: hidden; transition: all 0.7s ease; } 
+
+    .openMobileMenu .header_mainInner:after{ opacity: 1; visibility: visible; }
+
+    .menuLink{ border-top: 1px solid var(--border_color); padding: 10px 15px; font-size: 14px;}
+    .menuLink.hasDropdown:after{ right: 15px;}
+    .dropdownMenu_inner{ padding: 0px;}
+    .dropdownMenu_inner:before{ display: none;}
+    .dropdownMenuList ul{ display: block;  }
+    .dropdownMenuList ul li{ padding: 0px;}
+    .dropdownMenuList ul li:first-child a{ border-top: 0px none;}
+
+
+    /* .openMobileMenu .header_left{ position: relative; z-index: 999; }*/
+    .openMobileMenu .mob_menuBtn{  z-index: 999999; }
+    .openMobileMenu .header{  z-index: 9992; }
+    .openMobileMenu{ overflow: hidden !important;}
+    /* .openMobileMenu .topNav{ z-index: 9991;}  */ 
+
+    .dropdownMenu{ position: initial; visibility: visible; opacity: 1; display: none;}
+    .dropdownMenu .autoContent{  padding: 0px;}
+
+
+
+    .header_link{ max-height: calc(100vh - 154px);  min-height: 100px;  overflow-y: auto; padding-bottom:60px !important; }
+    .header_link > ul > li:hover .dropdownMenu{ display: block;}
+
+    .trackBooking_dropdownBox {  min-width: 276px; right: -124px; padding: 12px; }
+
+    .header_tracking { display: flex ; align-items: center; position: absolute; left: 0px; top:42px; padding: 15px;  width: 100%; }
+    .header_link > ul > li{ padding: 0px;}
+
+    .header_tracking .all_btn{ padding-top: 8px; padding-bottom: 8px;}
+
+    .header_right .navDropdownBox{ right: initial; left: 0px; min-width: 120px;}
+    .navDropdown_span:after{ background-image: url('data:image/svg+xml,<svg width="10" height="7" viewBox="0 0 10 7" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.79605 0.957397C1.73962 0.96429 1.71213 0.996631 1.68234 1.0242C1.43199 1.25483 1.18451 1.48784 0.931011 1.71529C0.84995 1.78792 0.854246 1.83484 0.933303 1.90774C2.15439 3.03225 3.37289 4.15915 4.59169 5.28552C4.83802 5.51323 5.08722 5.73882 5.32869 5.97104C5.41262 6.05163 5.46532 6.04447 5.54781 5.96786C7.00779 4.61484 8.46948 3.26341 9.93432 1.9149C10.0415 1.81629 10.0125 1.76592 9.88391 1.66413C9.64788 1.4775 9.42905 1.27338 9.22596 1.05601C9.12771 0.951035 9.07272 0.943878 8.98077 1.02924C7.85564 2.07342 6.72737 3.1147 5.60023 4.15676C5.58018 4.17506 5.54953 4.20687 5.53063 4.22595C5.46131 4.29594 5.40116 4.27685 5.32124 4.20262C4.26371 3.22047 3.20275 2.24149 2.14236 1.26172C2.05471 1.1806 1.96734 1.09896 1.87855 1.0189C1.85191 0.994775 1.8204 0.975158 1.79605 0.957397Z" fill="%23111111"/></svg>');}
+
+    .header_link > ul{ display: block; }
+    .header_link{ padding: 0px;}
+    .header_tracking{ justify-content: space-between;}
+    .banner{ min-height: 0px;}
+    .banner_inner{ display: block; padding-bottom: 2.75em; }
+    .banner_right{ width: 100%; }
+    .all_btn svg, .field_icon svg{ max-width: 20px; max-height: 20px;}
+    .ride_tab_header ul li a svg{max-width:18px; max-height: 18px; display: block;}
+    .header_logo img{ max-width: 110px;}
+
+    .navInfo_mobile{ display: block; }
+    .navInfo_mobile > ul{  width: 100%; background-color: var(--grey); position: absolute; left: 0px; top: 0px; border-radius: 10px 0px 0px 0px ; padding:13px 15px; } 
+    .navInfo_mobile > ul{ border: 0px none;}
+
+    .navInfoMobile_partner{ position: absolute; left: 0px; bottom: 10px; width: 100%; padding: 2px 15px;  z-index: 22; background-color: var(--white); }
+    .navInfoMobile_partner .navOutlineBtn{ background-color:var(--pg_color); justify-content: center; font-size: 1em;}
+
+
+
+    .mob_menuBtn{ display: block;}
+    .banner_box{ width: 100%; padding:0px 0px 10px 0px; }
+    .banner_box .discountBox {  right: -32px;  top: 2px;  border-radius: 10px;  transform: scale(0.5) !important;  }
+    .os_content{ display: block;}
+
+    .banner_box .discountBox{ display: none;}
+    .banner_box .banner_text small{ display: none;}
+    .banner_box .banner_text p{ display: none;}
+
+   
+ 
+
+
+
+}
+
+@media only screen and (min-width:320px) and (max-width:519px){
+     
+}
+@media only screen and (min-width:520px) and (max-width:767px){
+     
+    
+}
+
+
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) 
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : landscape)  {  
+
+ 
+
+
+}
+
+@supports (-webkit-touch-callout: none) {
+    html, body {
+        overflow-x: hidden;  
+    }
+}
+
+
+
+
+
+
+
+
